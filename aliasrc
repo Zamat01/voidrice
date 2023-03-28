@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# aliases for common commands
+alias \
+	bat="cat /sys/class/power_supply/BAT?/capacity" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	yt="youtube-dl --add-metadata -i" \
+	yta="yt -x -f bestaudio/best" \
+	ffmpeg="ffmpeg -hide_banner" \
+	ka="killall" \
+	g="git" \
+	trem="transmission-remote" \
+	YT="youtube-viewer" \
+	sdn="sudo shutdown -h now" \
+	f="$FILE" \
+	e="$EDITOR" \
+	v="$EDITOR" \
+
+#colorize commands whenever possible.
+alias \
+	ls="ls -hN --color=auto --group-direcotries-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi" \
